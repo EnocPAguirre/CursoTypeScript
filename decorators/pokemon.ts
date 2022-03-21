@@ -1,3 +1,9 @@
-class Pokemon {
-    public API: string = ''
+export class Pokemon {
+     public API: string = 'https://pokeapi.co';
+
+    constructor(
+        public name: string
+    ){
+
+    }
 }
